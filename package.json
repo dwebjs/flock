@@ -1,0 +1,42 @@
+{
+  "name": "@dwebjs/flock",
+  "description": "Library for peer revelation on dWeb 2.0.",
+  "version": "1.0.0",
+  "contributors": [
+    "Jared Rice Sr. <jared@dpeeps.com>",
+    "Peeps Labs <labs@dpeeps.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/dwebjs/flock/issues"
+  },
+  "dependencies": {
+    "@dwebjs/channel": "dwebjs/channel#master",
+    "connections": "^1.4.2",
+    "debug": "^4.1.1",
+    "length-prefixed-message": "^3.0.3",
+    "pump": "^3.0.0",
+    "to-buffer": "^1.0.1"
+  },
+  "optionalDependencies": {
+    "utp-native": "^1.7.2"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "tape": "^4.9.2"
+  },
+  "homepage": "https://dwebs.io",
+  "keywords": [
+    "dweb",
+    "distributed-web",
+    "dweb-flock"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+     "type": "git",
+     "url": "https://github.com/dwebjs/storage.git"
+  },
+  "scripts": {
+     "test": "standard && tape test.js"
+  }
+}
